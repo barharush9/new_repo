@@ -1,1 +1,4 @@
-fsdfsdfsfdsd
+for me 
+git add .
+git commit -m "..."
+git push -f
