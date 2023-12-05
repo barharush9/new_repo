@@ -1,0 +1,1 @@
+return render(request=req, template_name="my_app/index.html")

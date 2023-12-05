@@ -3,6 +3,9 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 #its request for my_app like ma koree keverrr
+def _defalt(request):
+    return HttpResponse("<h1>welcome to my first website :)</h1>")
+
 
 def index(request):
     return HttpResponse("<h1> the lion king is bar harush </h1>")
@@ -18,7 +21,9 @@ def matan(request):
 def daniel(request):
     return HttpResponse("<h1> Daniel, sorry again that I'm late because I'm on the computer <3.")
 
-""
+def oriya(request):
+    
+    return HttpResponse("<h1>Ze Ani , shesrpti et atost emsh</h1>")
 #its write with html title 
 #def index(request):
      #html = "<p> Hello </p> <br> <p>world</p>"
